@@ -7,16 +7,18 @@ Foundation 4 Grid support for IE8. This is CSS hack for Zurb foundation 4 on Int
 How To use
 ==========================
 
+1) Add Modernizr JavaScript library  to your project
 
-1) Download IE8-Grid-hack-foundation-4 from 
-https://github.com/ameyraut/IE8-Grid-hack-foundation-4/blob/master/ie8-foundation-4
-
-2) Add Modernizr JavaScript library 
+2) Download IE8-Grid-hack-foundation-4  CSS  file 
 
 3) Add Following Conditional comments after foundation 4 css 
-    <!--[if lt IE 9]> 
-		  <link rel="stylesheet" href="css/ie8-foundation-4.css">
-		<![endif]-->
+
+```html
+<!--[if lt IE 9]> 
+  <link rel="stylesheet" href="css/ie8-foundation-4.css">
+<![endif]-->  
+```
+*please change css path according to your project
 
 
 Required 

@@ -29,6 +29,8 @@
 .lt-ie9 [class*=column] + [class*=column]:last-child{float:right;}
 .lt-ie9 [class*=column] + [class*=column].end{float:left;}
 .lt-ie9 .column.small-centered,.lt-ie9 .columns.small-centered{position:relative;margin-left:auto;margin-right:auto;float:none!important;}
+.lt-ie9 .row .column.small-centered:first-child,.lt-ie9 .row .columns.small-centered:first-child{margin-left:auto !important;}
+ 
 .lt-ie9 .large-1{width:6.45833%;}
 .lt-ie9 .large-2{width:14.79167%;}
 .lt-ie9 .large-3{width:23.125%;}
@@ -63,10 +65,11 @@
 .lt-ie9 .pull-10{position:relative;right:83.33333%;left:auto;}
 .lt-ie9 .push-11{position:relative;left:91.66667%;right:auto;}
 .lt-ie9 .pull-11{position:relative;right:91.66667%;left:auto;}
-.lt-ie9 .column.large-centered,.lt-ie9 .columns.large-centered{position:relative;margin-left:auto;margin-right:auto;float:none!important;}
+.lt-ie9 .column.large-centered,.lt-ie9 .columns.large-centered{position:relative;margin-left:auto ;margin-right:auto;float:none !important;}
 .lt-ie9 .column.large-uncentered,.lt-ie9 .columns.large-uncentered{margin-left:0;margin-right:0;float:left!important;}
 .lt-ie9 .column.large-uncentered.opposite,.lt-ie9 .columns.large-uncentered.opposite{float:right!important;} 
-
+.lt-ie9 .row .column.large-centered:first-child,.lt-ie9 .row .columns.large-centered:first-child{margin-left:auto !important;}
+ 
 /* Nicolas Gallagher's micro clearfix */
 .lt-ie9 .row { *zoom: 1; }
 .lt-ie9 .row:before, .row:after { content: " "; display: table; }
